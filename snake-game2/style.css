@@ -1,0 +1,12 @@
+html, body {
+    height: 100%;
+    background-color: black;
+    font-family: 'Rampart One', cursive;
+  }
+  
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center; /* This centers our sketch horizontally. */
+    align-items: center; /* This centers our sketch vertically. */
+    }
