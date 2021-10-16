@@ -78,7 +78,6 @@ function draw() {
       background(153, 221, 242);
       if (ate) {
         apple = new Fruit();
-        sound.play();
         ate = false;
       }
       apple.show();
