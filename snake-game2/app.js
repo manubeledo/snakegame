@@ -8,7 +8,6 @@ let gameover = false;
 let ate = false;
 let speed = 4;
 let code = "";
-let sound;
 
 class Segment {
   constructor(i, x, y) {
@@ -66,7 +65,6 @@ function setup() {
   dir = createVector(1, 0);
   apple = new Fruit();
   apple.show();
-  sound = loadSound("eatsound.mp3");
 }
 
 //Loop draw everytime
